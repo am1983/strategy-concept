@@ -1,6 +1,6 @@
 public class X9BalanceInquiryStrategy : IBalanceInquiryStrategy
 {
-    public BalanceInquiryResult Process()
+    public BalanceInquiryResult Process(BalanceInquiryRequest request)
     {
         // Do whatever magic is required to get the data necessary for the X9 based
         // balance inquiry to work.

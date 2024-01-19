@@ -14,7 +14,7 @@ public class BalanceInquiryContext
         _strategy = strategy;
     }
 
-    public BalanceInquiryResult Process() {
-        return this._strategy.Process();
+    public BalanceInquiryResult Process(BalanceInquiryRequest request) {
+        return this._strategy.Process(request);
     }
 }

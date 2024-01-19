@@ -1,6 +1,6 @@
 public class WumeiBalanceInquiryStrategy : IBalanceInquiryStrategy
 {
-    public BalanceInquiryResult Process()
+    public BalanceInquiryResult Process(BalanceInquiryRequest request)
     {
         // Do whatever magic is required to get the data necessary for Wumei's
         // balance inquiry to work.

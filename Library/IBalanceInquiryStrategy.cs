@@ -1,4 +1,4 @@
 public interface IBalanceInquiryStrategy
 {
-    public BalanceInquiryResult Process();
+    public BalanceInquiryResult Process(BalanceInquiryRequest request);
 }
